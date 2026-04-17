@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body style="font-family:Arial;text-align:center;background:#1e2a38;color:white;">
+
+<h2>📜 Prediction History</h2>
+
+<div style="margin-top:20px;">
+
+{% for item in data %}
+<div style="background:#2c3e50;padding:10px;margin:5px;border-radius:8px;">
+{{item}}
+</div>
+{% endfor %}
+
+</div>
+
+<br>
+<a href="/home" style="color:#00ffcc;">⬅ Back</a>
+
+</body>
+
+</html>
